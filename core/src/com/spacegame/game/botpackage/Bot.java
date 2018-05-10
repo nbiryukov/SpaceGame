@@ -77,7 +77,7 @@ public class Bot implements BotAPI {
                if (deltaCenter < 0) {
                    return Direction.UP;
                } else {
-                   return Direction.UP;
+                   return Direction.DOWN;
                }
         } else {
             return Direction.NONE;
