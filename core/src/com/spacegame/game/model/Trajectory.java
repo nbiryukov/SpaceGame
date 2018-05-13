@@ -21,6 +21,10 @@ public class Trajectory {
        this.direction = direction;
    }
    
+   public Direction getDirection() {
+       return this.direction;
+   }
+   
    /**
     * Рассчитать новую позицию по траектори
     * @param delta промежуток времени
